@@ -3,7 +3,10 @@
                     xmlns:FitnessControls="clr-namespace:FitnessApp.UI.Controls">
 
     <Style TargetType="{x:Type FitnessControls:FitnessButton}">
-
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="150"/>
+        <Setter Property="Background" Value="DodgerBlue"/>
+        <Setter Property="CornerRadius" Value="10"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type FitnessControls:FitnessButton}">
