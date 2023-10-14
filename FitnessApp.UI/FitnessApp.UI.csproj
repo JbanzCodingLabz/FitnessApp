@@ -49,13 +49,17 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Themes\Generic.xaml">
+    <Page Include="Themes\FitnessButtonTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\FitnessApp.UI.Themes.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="CustomControl1.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Controls\FitnessBorder.cs" />
+    <Compile Include="Controls\FitnessButton.cs" />
+    <Compile Include="Controls\FitnessTextblock.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
